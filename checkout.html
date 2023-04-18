@@ -35,19 +35,26 @@
                 <legend>Sign In to Continue</legend>
                 <div>
                     <label for="username2">Username</label>
-            <input type="text" id="username2" name="username" required minlength="4" maxlength="8">
-            <label for="password2">Password</label>
+                    <input type="text" id="username2" name="username" required minlength="4" maxlength="8">
+            
                 </div>
+
                 <div>
+                    <label for="password2">Password</label>
                     <input type="text" id="password2" name="password" required minlength="4" maxlength="8">
+
+                </div>
+
+                <div>
                     <input type="checkbox" id="guest" name="guest">
                     <label>Continue as Guest</label>
                 </div>
+                
             </fieldset>
         
             <!--shipping info-->
             
-            </fieldset><fieldset>
+            <fieldset>
                 <legend>Shipping Information</legend>
                 <div>
                     <label>Name</label>
@@ -135,7 +142,47 @@
                             <option value="WY">Wyoming</option>
                         </select>
                     </div>
+            </fieldset>
 
+            <fieldset>
+                <legend>Payment Method</legend>
+
+                <div>
+                    <select>
+                        <option>Visa, Matercard, American Express</option>
+                        <option>Paypal</option>
+                        <option>Gift Card</option>
+                    </select>
+
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Payment Details</legend>
+
+                <div>
+                    <label>Cardholder Name</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label>Card Number</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label>Expiration</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <button><a href="">Complete Checkout</a></button>
+                    <!--Thanks, but the site's not real :P-->
+                </div>
+            </fieldset>
+
+            
                 
             <!--select form of payment-->
             <!--html table displaying cart items-->
@@ -146,9 +193,9 @@
     <footer>
         <p>Thanks for Visiting!</p>
     <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Links</li>
+        <li>Contact Info</li>
+        <li>Store Coming Soon!</li>
     </ul>
     </footer>
 
