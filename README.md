@@ -15,3 +15,6 @@ https://secure.booksamillion.com/ncom/order?id=8817461004426
 https://fontawesome.com/kits
 
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event
+
+https://freefrontend.com/css-text-glitch-effects/
+- Joshua Ward-https://codepen.io/joshuaward/pen/RgOxKd 
