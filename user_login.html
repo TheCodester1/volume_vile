@@ -37,34 +37,38 @@
         </div>
     </header>
 
-    <form>
-        <!--required-->
-        <fieldset>
-            <div>
-                <h2>Login</h2>
-            </div>
-            <div>
-                <label for="username2">Username</label>
-                <input type="text" id="username2" name="username" required minlength="4" maxlength="8">
-            </div>
-            <div>
-                <label for="password2">Password</label>
-                <input type="text" id="password2" name="password" required minlength="4" maxlength="8">
-            </div>
-        </fieldset>
-
-        <fieldset>
-            <div>
-                <input type="checkbox" id="rememberme" name="rememberme">
-                <label>Remember Me</label>
-
-            </div>
-        </fieldset>
-        <!--username-->
-        <!--password-->
-        <!--remember me checkbox-->
-
-    </form>
+    <div class="card">
+        <div class="card-body">
+            <form>
+                <!--required-->
+                <fieldset>
+                    
+                    <h2 class="card-title">Login</h2>
+                    
+                    <div class="card-text">
+                        <div>
+                            <label for="username2">Username</label>
+                            <input type="text" id="username2" name="username" required minlength="4" maxlength="8">
+                        </div>
+                        <div>
+                            <label for="password2">Password</label>
+                            <input type="text" id="password2" name="password" required minlength="4" maxlength="8">
+                        </div>
+                    
+                    
+                    </div>
+                    <div class="card-subtitle mb-2 text-muted">
+                        <input type="checkbox" id="rememberme" name="rememberme">
+                        <label>Remember Me</label>
+                    </div>
+                    <a href="#" class="card-link"></a>
+                </fieldset>
+                <!--username-->
+                <!--password-->
+                <!--remember me checkbox-->
+            </form>
+        </div>
+    </div>
 
     <footer>
         <h3>Thanks for Visiting!</h3>
