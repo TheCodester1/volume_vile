@@ -7,9 +7,16 @@
 .navbar ul {
     list-style-type: none;
 }
+.green:link {
+    text-decoration: none;
+}
+
+.green:visited {
+    text-decoration: none;
+}
 
 .green:hover {
-    background-color: chartreuse;
+    color: chartreuse;
 }
 
 .logo {
