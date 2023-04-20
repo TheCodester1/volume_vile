@@ -1,3 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    
+}
 
+.navbar ul {
+    list-style-type: none;
+}
+
+.logo {
+   font-family: sans-serif;
+   font-size: 100%; 
+}
+
+body {
+    background-color: rgba(48, 25, 9, 0.615);
+}
 
 
