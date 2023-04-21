@@ -9,6 +9,8 @@ body {
     background-color: rgb(86, 36, 133);
     min-height: 200vh;
     padding-top: 12rem;
+
+    
 }
 
 header{
@@ -33,12 +35,15 @@ header a.logo {
 header.sticky {
     padding: 5px 100px;
     background: rgb(203, 138, 69);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
 }
 
 header .navbar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
     
 }
 
