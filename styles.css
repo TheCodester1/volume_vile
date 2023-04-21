@@ -10,10 +10,10 @@ body {
     min-height: 200vh;
     padding-top: 12rem;
 
-    
+
 }
 
-header{
+header {
     position: fixed;
     top: 0%;
     left: 0%;
@@ -35,7 +35,6 @@ header a.logo {
 header.sticky {
     padding: 5px 100px;
     background: rgb(203, 138, 69);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -44,7 +43,7 @@ header .navbar {
     justify-content: flex-end;
     align-items: center;
 
-    
+
 }
 
 header .navbar ul {
@@ -52,7 +51,7 @@ header .navbar ul {
     display: flex;
     gap: 5rem;
     position: relative;
-    
+
 }
 
 .green:link {
@@ -98,7 +97,7 @@ img.centipede {
     justify-content: center;
     width: 100%;
     height: auto;
-    
+
 }
 
 h3 {
@@ -119,7 +118,9 @@ table {
     padding: 1rem;
 }
 
-caption, th, td {
+caption,
+th,
+td {
     padding: 1rem;
 }
 
