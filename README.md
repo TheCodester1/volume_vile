@@ -2,9 +2,11 @@
 ## This is a fake bookstore featuring some of my art!
 
 ## Img pages go here:
+C:\Users\Student\LearnToCode\Capstone\volume_vile\images\Webpage
 ### **Home Page:**(C:\Users\Student\LearnToCode\Capstone\volume_vile\index.html)
 <img src="">
 ### **User Registration:** (C:\Users\Student\LearnToCode\Capstone\volume_vile\user_registration.html)
+
 ### **User Login:** C:\Users\Student\LearnToCode\Capstone\volume_vile\user_login.html
 ### **Products:** C:\Users\Student\LearnToCode\Capstone\volume_vile\products.html
 ### **Checkout:** (C:\Users\Student\LearnToCode\Capstone\volume_vile\checkout.html)
