@@ -1,4 +1,4 @@
-# volume_vile
+# Capstone: Volume Vile
 ## This is a fake bookstore featuring some of my art!
 
 ## Img pages go here:
