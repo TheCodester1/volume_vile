@@ -69,7 +69,7 @@ header .navbar ul {
 .green {
     color: darkgrey;
     font-family: Chiller Regular, 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
+    font-size: 50px;
 }
 
 header.sticky .logo,
@@ -82,14 +82,14 @@ header.sticky ul li a {
     display: flex;
     justify-content: center;
     font-family: Chiller Regular, 'Arial Narrow', Arial, sans-serif;
-    font-size: 55px;
+    font-size: 120px;
 }
 
 .opener {
     display: flex;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
+    font-size: xx-large;
 }
 
 img.centipede {
@@ -102,9 +102,10 @@ img.centipede {
 
 h3 {
     font-family: Chiller Regular, 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
+    font-size: 75px;
     color: rgb(23, 2, 2);
 }
+
 
 .wrapper {
     width: min(900px, 100% - 3rem);
@@ -172,3 +173,4 @@ tr:nth-of-type(2n) {
         text-transform: uppercase;
     }
 }
+
