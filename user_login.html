@@ -21,6 +21,9 @@
 
         <!--Site Logo-->
         <!--caption: Literature that makes your skin crawl-->
+        <a class="logo" href="/">
+            <img src="/images/202304__/GFVV6790.PNG" alt="VOLUME: VILE" >
+        </a>
         <nav class="navbar">
             <ul>
                 <li><a href="/" class="green">Home</a></li>
@@ -30,45 +33,48 @@
                 <li><a href="/checkout.html" class="green">Checkout</a></li>
             </ul>
         </nav>
-        <div class="logo">
-            <a href="/">
-                <img src="/images/202304__/GFVV6790.PNG" alt="VOLUME: VILE">
-            </a>
-        </div>
     </header>
 
-    <div class="card">
-        <div class="card-body">
-            <form>
-                <!--required-->
-                <fieldset>
-                    
-                    <h2 class="card-title">Login</h2>
-                    
-                    <div class="card-text">
-                        <div>
-                            <label for="username2">Username</label>
-                            <input type="text" id="username2" name="username" required minlength="4" maxlength="8">
+    <main>
+        <div class="card" style="width: 45rem;">
+            <div class="card-body">
+                <form>
+                    <!--required-->
+                    <fieldset>
+        
+                        <h2 class="card-title">Login</h2>
+        
+                        <div class="card-text">
+                            <div>
+                                <label for="username2">Username</label>
+                                <input type="text" id="username2" name="username" required minlength="4" maxlength="8">
+                            </div>
+                            <div>
+                                <label for="password2">Password</label>
+                                <input type="text" id="password2" name="password" required minlength="4" maxlength="8">
+                            </div>
+        
+        
                         </div>
-                        <div>
-                            <label for="password2">Password</label>
-                            <input type="text" id="password2" name="password" required minlength="4" maxlength="8">
+                        <div class="card-subtitle mb-2 text-muted">
+                            <input type="checkbox" id="rememberme" name="rememberme">
+                            <label>Remember Me</label>
                         </div>
-                    
-                    
-                    </div>
-                    <div class="card-subtitle mb-2 text-muted">
-                        <input type="checkbox" id="rememberme" name="rememberme">
-                        <label>Remember Me</label>
-                    </div>
-                    <a href="#" class="card-link"></a>
-                </fieldset>
-                <!--username-->
-                <!--password-->
-                <!--remember me checkbox-->
-            </form>
+                        <a href="#" class="card-link"></a>
+                    </fieldset>
+                    <!--username-->
+                    <!--password-->
+                    <!--remember me checkbox-->
+                </form>
+            </div>
         </div>
-    </div>
+    </main>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 
     <footer>
         <h3>Thanks for Visiting!</h3>
