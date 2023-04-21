@@ -48,15 +48,16 @@
                         </div>
                         <div>
                             <label for="password">Password</label>
-                            <input type="text" id="password" name="password" required minlength="4" maxlength="8">
+                            <input type="text" id="password" name="password" required minlength="8" maxlength="20" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
                             <!--passwords match-->
                             <label for="confirm_password">Confirm Password</label>
-                            <input type="text" id="confirm_password" name="confirm_password" required minlength="4"
-                                maxlength="8">
+                            <input type="text" id="confirm_password" name="confirm_password" required minlength="8"
+                                maxlength="20">
                         </div>
                         <div>
-                            <label for="email">Emaill</label>
-                            <input type="text" id="email" name="email" required minlength="4" maxlength="8">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" required minlength="5" maxlength="30"
+                            pattern=".+@globex\.com" size="30" required>
                         </div>
                         <!--radio button, optional-->
                         <fieldset>
