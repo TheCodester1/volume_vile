@@ -1,7 +1,7 @@
 # Capstone: Volume Vile
 ## This is a fake online horror-themed bookstore featuring some of my art!
 ## This website shows a bit of what I have learned during my capstone.
-## It contains 5 pages, bootstrap css cards, javascript, a table,forms with requirements and flexbox properties.
+## It contains 5 pages, a sticky navbar, bootstrap css cards, javascript, a table,forms with requirements and flexbox properties.
 
 ## Img pages go here:
 C:\Users\Student\LearnToCode\Capstone\volume_vile\images\Webpage
