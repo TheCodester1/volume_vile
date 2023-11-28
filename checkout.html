@@ -23,7 +23,7 @@
         <!--caption: Literature that makes your skin crawl-->
         <a class="logo" href="index.html">
             <img src="images/202304__/GFVV6790.PNG" alt="VOLUME: VILE">
-            <p class="logo logo-caption">Literature that makes your skin scrawl.</p>
+            <p class="logo logo-caption links">Literature that makes your skin scrawl.</p>
         </a>
         <nav class="navbar">
             <ul>
@@ -226,18 +226,23 @@
   
 
     <footer>
+        <h3 class="footer-caption">Thanks for Visiting!</h3>
         <div class="footer-logo">
-            <h3 class="footer-caption">Thanks for Visiting!</h3>
             <a href="index.html"><img src="images/202304__/vv_full_logo.png" alt="VOLUME VENOM"></a>
+            <ul>
+                <li><a class="footer-links links" href="#">Links</a></li>
+                <li><a class="footer-links links" href="#">Contact Info</a></li>
+                <li><a class="footer-links links" href="#">Store Coming Soon!</a></li>
+            </ul>
         </div>
         
-        <ul>
-            <li><a class="footer-links" href="#">Links</a></li>
-            <li><a class="footer-links" href="#">Contact Info</a></li>
-            <li><a class="footer-links" href="#">Store Coming Soon!</a></li>
-        </ul>
     </footer>
-
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 </body>
 
 </html>
